@@ -1,7 +1,7 @@
 require 'pry'
-snake_string = ""
 
 def snake_it_up(string)
+  snake_string = ""
   if string[0] == "s"
     10.times do
       binding.pry
